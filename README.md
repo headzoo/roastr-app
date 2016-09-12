@@ -1,6 +1,11 @@
 Roastr App Builder
 ==================
 
+## Requirements
+
+* Node and NPM
+* Gulp
+
 ## Install
 
 ```bash
