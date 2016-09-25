@@ -1,5 +1,5 @@
 {
-  "name": "roastr-site",
+  "name": "roastr-app",
   "version": "0.0.0",
   "dependencies": {
     "roastr": "/var/www/roastr",
