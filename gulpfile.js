@@ -103,8 +103,7 @@ function fileExists(filename) {
  */
 gulp.task('create', function() {
     const path_app    = pathApp();
-    const path_roastr = path.dirname(require.resolve('roastr'));
-    const path_skel   = path.join(path_roastr, 'skeleton');
+    const path_skel   = path.resolve('../skeleton');
     const to_sync     = [
         {src: path.join(path_skel,'config'), dest: path.join(path_server,'config')},
         {src: path.join(path_skel,'public'), dest: path.join(path_server,'public')},
