@@ -260,6 +260,9 @@ gulp.task('watch', ['default'], function() {
     gulp.watch([
         pathAppPublic('less/**/*.less')
     ], ['less']);
+    gulp.watch([
+        pathAppPublic('images/**/*')
+    ], ['assets']);
 });
 
 /**
