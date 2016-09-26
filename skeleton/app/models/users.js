@@ -1,5 +1,7 @@
 'use strict';
 
 module.exports = function(models, container) {
-    models.add('users');
+    let Users = models.add({
+        tableName: 'users'
+    });
 };
